@@ -144,8 +144,8 @@ namespace Bukashki
 				glowHome2.Geometry = line;
 				glowHome2.Pen = new Pen(new SolidColorBrush(color)
 				{
-					Opacity = 0.2
-				}, 10)
+					Opacity = 0.16
+				}, 9)
 				{
 					EndLineCap = PenLineCap.Round,
 					StartLineCap = PenLineCap.Round
@@ -156,8 +156,8 @@ namespace Bukashki
 				glowHome3.Geometry = line;
 				glowHome3.Pen = new Pen(new SolidColorBrush(color)
 				{
-					Opacity = 0.1
-				}, 20){
+					Opacity = 0.08
+				}, 18){
 					EndLineCap = PenLineCap.Round,
 					StartLineCap = PenLineCap.Round
 				};
@@ -183,8 +183,8 @@ namespace Bukashki
 				glowRes2.Geometry = line;
 				glowRes2.Pen = new Pen(new SolidColorBrush(color)
 				{
-					Opacity = 0.2
-				}, 10){
+					Opacity = 0.16
+				}, 9){
 					EndLineCap = PenLineCap.Round,
 					StartLineCap = PenLineCap.Round
 				};
@@ -194,8 +194,8 @@ namespace Bukashki
 				glowRes3.Geometry = line;
 				glowRes3.Pen = new Pen(new SolidColorBrush(color)
 				{
-					Opacity = 0.1
-				}, 20){
+					Opacity = 0.08
+				}, 18){
 					EndLineCap = PenLineCap.Round,
 					StartLineCap = PenLineCap.Round
 				};
